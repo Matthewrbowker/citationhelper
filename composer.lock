@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+    "content-hash": "4b8b2c1dc87ef896d9cfebb39d345962",
     "packages": [
         {
             "name": "brick/math",
@@ -3108,6 +3108,56 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
+        },
+        {
+            "name": "sophivorus/easy-wiki",
+            "version": "v2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sophivorus/EasyWiki.git",
+                "reference": "83c595f7f721e13193f42bca55ac9d4bc74cd22e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sophivorus/EasyWiki/zipball/83c595f7f721e13193f42bca55ac9d4bc74cd22e",
+                "reference": "83c595f7f721e13193f42bca55ac9d4bc74cd22e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "EasyWiki.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sophivorus",
+                    "email": "schenonef@gmail.com",
+                    "homepage": "https://github.com/Sophivorus",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Friendly PHP client for the MediaWiki Action API",
+            "homepage": "https://github.com/Sophivorus/EasyWiki",
+            "keywords": [
+                "mediawiki",
+                "mediawiki-api",
+                "wiki",
+                "wikipedia",
+                "wikipedia-api"
+            ],
+            "support": {
+                "issues": "https://github.com/Sophivorus/EasyWiki/issues",
+                "source": "https://github.com/Sophivorus/EasyWiki/tree/v2"
+            },
+            "time": "2024-01-15T16:10:49+00:00"
         },
         {
             "name": "symfony/clock",

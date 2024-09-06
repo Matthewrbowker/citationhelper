@@ -1,0 +1,74 @@
+{{Short description|Traditional West African lute}}
+{{For|the musical group|Xalam (band)}}
+
+<!--It's not called "xalam" in Niger; please fix this-->
+{{Infobox instrument
+| name                  = Xalam
+| image                 = Molo, African lute.jpg
+| image_size            = 300px
+| alt                   = Molo, African lute, in the collection of the Smithsonian
+| caption               = [[Molo (lute)|Molo]], African lute, in the collection of the Smithsonian. The biggest visible difference between the molo and a griot lute like the xalam is the [[bridge (instrument)|bridge]], which is cylindrical on this instrument, but has a fan shape on the xalam.<ref>{{cite journal | first=Eric |last=Charry |title= Plucked Lutes in West Africa: an Historical Overview |journal=The Galpin Society Journal |date= March 1996 |volume= 49 |publisher=The Galpin Society |pages 4-6|url=https://www.jstor.org/stable/842390 quote= One category of lute has a V- or fan-shaped bridge that slips onto the end of the neck (which is exposed by a hole in the soundtable). It is played exclusively by...griots...The other category of lute... has a cylindrical bridge that sits on top of the soundtable...[an example:] Figure 1b. Hausa molo: non-griot lute, wooden trough resonator, cylinder-shaped bridge... }}</ref>
+| background            = string
+| names                 = ''bappe'', ''diassare'', ''[[List of musical instruments of Cameroon#Chordophones|gúlúm]]'', ''[[Gurmi (lute)|gurmi]]'', ''hoddu'' / ''kologu'', ''Khalam''/''Xalam'', ''komsa'', ''koni'', ''[[kontigi]]'', ''konting'', ''[[Molo (lute)|molo]]'', ''ndere'', 'ngonifola'', ''[[ngoni (instrument)|ngoni]]'', ''tidinit''
+| classification        =
+| hornbostel_sachs      = [[List of musical instruments by Hornbostel–Sachs number: 321.33|321.33]]
+| hornbostel_sachs_desc = Tanged or Semi-spike lute: Chordophone, the plane of strings runs parallel with the sound table, the string bearer is a plain handle and passes "diametrically" through the resonator, the resonator consists of a natural or carved out bowl, in which the handle extends into but does not pass completely through the resonator
+| inventors             =
+| developed             =
+| timbre                =
+| volume                =
+| attack                =
+| decay                 =
+| range                 =
+| pitch                 =
+| related               = {{bulleted list|[[akonting]]|[[Garaya (lute)|garaya]]|[[gumbri|gumbri/sintir]]|[[Ngoni (instrument)|ngoni]]}}
+| musicians             =
+| builders              =
+| articles              =
+}}
+
+'''Xalam''' (in [[Serer language|Serer]], khalam in [[Wolof language|Wolof]], and Mɔɣlo in [[Dagbani language|Dagbanli]]) is a traditional [[lute]] from [[West Africa]] with 1 to 5 strings.<ref name="TMOA">{{cite book |title= The Music of Africa |author= J. H. Kwabena Nketia |publisher= W. W. Norton and Company |place=New York |date= 1974 |pages=103, 258}}</ref> The xalam is commonly played in [[Mali]], [[Gambia]], [[Senegal]], [[Niger]], Northern [[Nigeria]], Northern [[Ghana]], [[Burkina Faso]], [[Mauritania]], and [[Western Sahara]]. The xalam and its variants are known by various names in other languages, including bappe, diassare, hoddu ([[Fula people|Pulaar]]), koliko ([[Gurunsi languages|Gurunsi]]), kologo ([[Frafra language|Frafra]]),<ref>{{cite web|last=Guttman|first=Yoav|title=What is a Kologo?|url=http://kologomusic.blogspot.de/p/what-is-kologo.html|access-date=2012-06-17|archive-url=https://web.archive.org/web/20160304043121/http://kologomusic.blogspot.de/p/what-is-kologo.html|archive-date=2016-03-04|url-status=dead}}</ref> komsa, [[kontigi]], [[Gurmi (lute)|gurmi]], [[Garaya (lute)|garaya]] ([[Hausa people|Hausa]]), koni, konting ([[Mandinka people|Mandinka]]), [[Molo (lute)|molo]] ([[Songhai people|Songhay]]/[[Zarma people|Zarma]]), ndere, [[ngoni (instrument)|ngoni]] ([[Bambara people|Bambara]]), and tidinit ([[Hassaniyya]] and [[Berber languages|Berber]]).
+
+In Wolof, a person who plays the xalam is called a ''xalamkat'' (a word composed of the verbal form of xalam, meaning "to play the xalam", and the agentive suffix ''-kat'', thus meaning "one who xalams").
+In Mande, this is ''ngonifola'' or ''konting fola''.
+In Hausa, this is ''mai gurmi'' or ''mai kontigi''.
+
+==Construction and tuning==
+[[File:Diffa Niger Griot DSC 0177.jpg|thumb|right|A [[Hausa people|Hausa]] [[Griot]] playing the [[Gurmi (lute)|gurmi]] (a Hausa variant of the xalam with a spherical body) in [[Diffa]], Niger.]]
+The xalam, in its standard form, is a simple [[lute]] chordophone with one to five strings. The wooden body (soundbox) membranophone of the instrument is oval-shaped and covered with the hide of [[cattle]]. The strings of the xalam are typically made of two or three tightly wound strands of low-gauge [[nylon]] fishing line; these strings are fixed to the instrument's wooden neck by long and narrow [[leather]] strips and to its wooden bridge by cotton strings. By moving these strips, the instrument's tune can be adjusted. The xalam usually has two main melody strings that are fingered by the left hand (like the strings of a guitar or banjo) and two to three supplementary strings of fixed pitch. Most xalam players construct their own xalams, although they usually call on woodworkers (lawbe) to carve the body, neck, and bridge for them.{{cn|date=July 2022}}
+
+[[File:Senegalese Halamkat holding a khalam.gif|thumb|left|Senegalese khalamkat holding a khalam (xalam, hoddu, molo). Circa 1890-1905.]]
+
+In most Wolof-speaking parts of Senegal, the xalam has three principal tunings, all of which involve tuning the two main strings a perfect fourth apart. In the first tuning (''ci suuf'' or low), the main strings are tuned 1 and 4 ( 1 being the fundamental of a major scale), with three supplementary strings being tuned an octave higher to 1´, 2´, and 3´. The second tuning (''ci kow'' or high) uses the same string intervals but the fundamental is placed a minor second above the higher melody string, meaning that the open main strings now play the role of 3 and 6, with the supplementary strings acting as 3´ and 4#, the highest supplementary string usually being ignored. In the third tuning (''ardin''), the fundamental is a minor third above the lowest main string and the main strings are tuned 6 and 2, with supplementary strings tuned to 5 and 1´. The third supplementary string is either ignored or is tuned to 6 or 2´. If playing in an ensemble, the ''ardin'' xalam's main strings are tuned a minor third below the ''cu suuf'' xalam, and the ''ci kow'' xalam is tuned a major third above the ''ci suuf'' xalam to ensure that the fundamentals of each xalam coincide. (Thus, if the ''ci suuf'' xalam's lowest note were C, the ardins lowest note would be a low A and the ''ci kow'' xalam's lowest note would be E.){{cn|date=July 2022}}
+
+==Players==
+[[File:Molo or Xalam, lute, back.jpg|thumb|Back of a molo (lute, showing how the skin soundboard is held on)]]
+In most areas the xalam is played by male [[griots]], or praise singers who are born into the profession. It most often acts as a solo or duo instrument to accompany praise songs and historical recitations, and in some areas it may form part of a larger group including kora, drums, and calabashes. It is traditionally heard at weddings, infant naming ceremonies, and (always with amplification) is now a common member of folklore ensembles, popular ''[[mbalax]]'' groups, and ''ndaga'' variety shows.
+
+==See also==
+* [[Akonting]]
+* [[Cheick Hamala Diabate]]
+* [[Kora (instrument)]]
+* [[Ngoni (instrument)]]
+* [[Rubab (instrument)]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Commons category|Xalam (instrument)}}
+* [https://web.archive.org/web/20080508195326/http://cosaan.keemtaan.net/xalam.html Cosaan: Senegalese Culture—Xalam and Virtual Xalam]
+* [https://web.archive.org/web/20051122115929/http://www.kennedy-center.org/programs/millennium/artist_detail.cfm?artist_id=CHEICKHAMA Video of Cheick Hamala Diabate performances] from Kennedy Center Millennium Stage site
+
+{{Lute}}
+{{Authority control}}
+
+[[Category:Arabic musical instruments]]
+[[Category:West African musical instruments]]
+[[Category:Drumhead lutes]]
+[[Category:Gambian musical instruments]]
+[[Category:Malian musical instruments]]
+[[Category:Sahrawi musical instruments]]
+[[Category:Senegalese musical instruments]]
+[[Category:Nigerien musical instruments]]
+[[Category:Nigerian musical instruments]]
