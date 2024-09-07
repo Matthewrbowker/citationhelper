@@ -4,12 +4,16 @@ namespace App\Http\Controllers;
 
 use EasyWiki;
 
+
 class FixController extends Controller
 {
     public function index($style, $category, $articleTitle = null)
     {
+        $external = !(request()->has("no-external"));
+
         // Convert category to CamelCase
         $category = str_replace(' ', '', ucwords(str_replace('_', ' ', $category)));
+        $category = str_replace(':', '', ucwords(str_replace('_', ' ', $category)));
 
 
         $helper = "App\\Helpers\\$style\\$category";
@@ -42,12 +46,12 @@ class FixController extends Controller
 
         $wikitext = $wiki->getWikitext($articleTitle);
 
-        $output = $helper->parse($wikitext);
+        $output = $helper->parse($wikitext, $external);
+
+        //dd($output);
 
         $fixedWikitext = $helper->fix($wikitext, $output);
 
-        $wikitext = explode("\n", $fixedWikitext);
-
-        return view('fixes', ["articleTitle"=>$articleTitle, "output" => $output, "wikitext" => $wikitext]);
+        return view('fixes', ["articleTitle"=>$articleTitle, "output" => $output, "wikitext" => $fixedWikitext]);
     }
 }

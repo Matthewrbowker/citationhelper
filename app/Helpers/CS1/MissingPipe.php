@@ -8,7 +8,7 @@ class MissingPipe extends BaseHelper
 {
     public string $category = "CS1 errors: missing pipe";
 
-    function parse($text): array
+    function parse($text, $external): array
     {
         $output = [];
         $citations = $this->findCitations($text);
