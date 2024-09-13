@@ -45,32 +45,9 @@ class MissingTitle extends BaseHelper
             }
             //}
 
-            $pageTitle = "<>";
 
             if($external && isset($parameters["url"])) {
-                $url = $parameters["url"];
-                if(isset($parameters["url-status"]) && isset($parameters["archive-url"]) && $parameters["url-status"] == "dead") {
-                    $url = $parameters["archive-url"];
-                }
-                $ch = curl_init();
-
-                // set url
-                curl_setopt($ch, CURLOPT_URL, $url);
-
-                //return the transfer as a string
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
-
-                // $output contains the output string
-                $remotePageOutput = curl_exec($ch);
-
-                $res = preg_match("/<title>(.*)<\/title>/siU", $remotePageOutput, $title_matches);
-                if ($res) {
-                    // Clean up title: remove EOL's and excessive whitespace.
-                    $title = preg_replace('/\s+/', ' ', $title_matches[1]);
-                    $title = trim($title);
-                    $pageTitle = $title;
-                }
+                $pageTitle = $this->extractPageTitle($parameters["url"]);
             }
 
             if(array_key_exists($parameter, $parameters)) {

@@ -33,7 +33,8 @@ class FixController extends Controller
                 "action" => "query",
                 "list" => "categorymembers",
                 "cmtitle" => "Category:{$helper->getCategory()}",
-                "cmlimit" => "1"
+                "cmlimit" => "1",
+                "cmnamespace" => "0"
             ]);
 
             if(count($members["query"]["categorymembers"]) == 0
