@@ -53,6 +53,6 @@ class FixController extends Controller
 
         $fixedWikitext = $helper->fix($wikitext, $output);
 
-        return view('fixes', ["articleTitle"=>$articleTitle, "output" => $output, "wikitext" => $fixedWikitext]);
+        return view('fixes', ["articleTitle"=>$articleTitle, "output" => $output, "wikitext" => $fixedWikitext, "category" => $helper->getCategory()]);
     }
 }
