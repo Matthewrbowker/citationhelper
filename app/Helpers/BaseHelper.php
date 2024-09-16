@@ -16,8 +16,16 @@ abstract class BaseHelper
     protected function findCitations($wikitext): array
     {
         $citations = [];
+        // Temporarily replace {{!}} with {!} to avoid conflicts with the regex
         $wikitext = str_replace("{{!}}", "{!}", $wikitext);
-        preg_match_all("#(\{\{cite ([\S\s]*)}})#imU", $wikitext, $matches);
+        preg_match_all("#(\{\{cite ([\S\s]*)}}(.*))#imU", $wikitext, $matches);
+        preg_match_all("#}}(.*)<#", $wikitext, $tagExtensions);
+
+        $tagExtension = "";
+
+        if(isset($tagExtensions[1][0])) {
+            $tagExtension = $tagExtensions[1][0];
+        }
 
         foreach($matches[0] as $match) {
             $parameters = [];
@@ -56,6 +64,7 @@ abstract class BaseHelper
                 if(isset($parameterData[1])) {
                     $value = trim($parameterData[1]);
                     $value = str_replace("}}", "", $value);
+                    // Put back the {{!}} that were replaced
                     $value = str_replace("{!}", "{{!}}", $value);
                 }
                 $parameters[$key] = $value;
@@ -65,6 +74,7 @@ abstract class BaseHelper
             $citation["content"] = $match;
             $citation["type"] = preg_split("#[|\s]#", $match)[1];
             $citation["parameters"] = $parameters;
+            $citation["extension"] = $tagExtension;
             $citations[] = $citation;
         }
 
@@ -77,6 +87,9 @@ abstract class BaseHelper
             $possibleFix = $error["possibleFix"];
             $wikitext = str_replace($content, $possibleFix, $wikitext);
         }
+
+        // Strip out fully empty citations
+        $wikitext = str_replace("<ref></ref>", "", $wikitext);
 
         return $wikitext;
     }
