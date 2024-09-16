@@ -6,7 +6,7 @@ use App\Helpers\BaseHelper;
 
 class MissingPipe extends BaseHelper
 {
-    public string $category = "CS1 errors: missing pipe";
+    protected string $category = "CS1 errors: missing pipe";
 
     function parse($text, $external): array
     {

@@ -6,7 +6,7 @@ use App\Helpers\BaseHelper;
 
 class ExtraTextVolume extends BaseHelper
 {
-    public string $category = "CS1 errors: extra text: volume";
+    protected string $category = "CS1 errors: extra text: volume";
 
     public function parse($text, $external): array
     {

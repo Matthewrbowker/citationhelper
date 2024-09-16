@@ -6,7 +6,7 @@ use App\Helpers\BaseHelper;
 
 class MissingTitle extends BaseHelper
 {
-    public string $category = "CS1 errors: missing title";
+    protected string $category = "CS1 errors: missing title";
 
     private function checkParameter($parameters, $key) {
         return isset($parameters[$key]) && $parameters[$key] != "";
